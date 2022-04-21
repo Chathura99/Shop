@@ -12,6 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1/")
+//map with react project
 @CrossOrigin(origins = "http://localhost:3000")
 public class ProductController {
     @Autowired
